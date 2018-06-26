@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SignUp-GrowCrops</title>
+</head>
+<body>
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="container">
+<h1 style="text-align:center"></h1>
+<div class="panel panel-default">
+<a href="index.php"><h2 style="color:brown;font-family:cursive;text-align:center">GrowCrops</h2></a>
+<div class="jumbotron">
+<form align="center" action="acc.php" method="post">
+<fieldset>
+<legend style="color:blue;">SignUp</legend>
+<div class="form-horizontal">
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<div class="input-group">
+<span class="input-group-addon">
+<i class="glyphicon glyphicon-envelope"></i>
+</span><input type="email" name="email" class="form-control" placeholder="Email" required>
+</div></div><div class="col-sm-4"></div></div></div></br>
+<div class="form-horizontal">
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input type="text" name="fname" class="form-control" placeholder="First Name" required>
+</div>
+</div></div><div class="col-sm-4"></div></div></br>
+<div class="form-horizontal">
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input type="text" name="lname" class="form-control" placeholder="Last Name" required>
+</div></div><div class="col-sm-4"></div></div></div><br/>
+
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<div class="form-horizontal">
+<div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+<input type="number" name="mobile" class="form-control" placeholder="Enter your Mobile Number" required>
+</div></div></div><div class="col-sm-4"></div></div></br>
+
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<div class="form-horizontal">
+<div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input type="text" name="uname" class="form-control" placeholder="User Name" required>
+</div></div></div><div class="col-sm-4"></div></div>
+</br>
+
+
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<div class="form-horizontal">
+<div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-lock"></span></i>
+<input type="password" class="form-control" name="pass" placeholder="Password" required>
+</div></div></div><div class="col-sm-4"></div></div></br>
+
+
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<div class="form-horizontal">
+<div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-flag"></span></i>
+<select name="di" class="form-control" placeholder="select district" required>
+<option value="Ariyalur">Ariyalur</option>
+<option value="Chennai">Chennai</option>
+<option value="Coimbatore">Coimbatore</option>
+<option value="Cuddalore">Cuddalore</option>
+<option value="Dharmapuri">Dharmapuri</option>
+<option value="Dindigul">Dindigul</option>
+<option value="Erode">Erode</option>
+<option value="Kancheepuram">Kancheepuram</option>
+<option value="Karur">Karur</option>
+<option value="Krishnagiri">Krishnagiri</option>
+<option value="Madurai">Madurai</option>
+<option value="Nagapattinam">Nagapattinam</option>
+<option value="Kanyakumari">Kanyakumari</option>
+<option value="Namakkal">Namakkal</option>
+<option value="Perambalur">Perambalur</option>
+<option value="Pudukottai">Pudukottai</option>
+<option value="Ramanathapuram">Ramanathapuram</option>
+<option value="Salem">Salem</option>
+<option value="Sivagangai">Sivagangai</option>
+<option value="Thanjavur">Thanjavur</option>
+<option value="Theni">Theni</option>
+<option value="Thiruvallur">Thiruvallur</option>
+<option value="Thiruvarur">Thiruvarur</option>
+<option value="Tuticorin">Tuticorin</option>
+<option value="Trichirappalli">Trichirappalli</option>
+<option value="Thirunelveli">Thirunelveli</option>
+<option value="Thirunelveli">Thirunelveli</option>
+<option value="Thiruvannamalai">Thiruvannamalai</option>
+<option value="The Nilgiris">The Nilgiris</option>
+<option value="Vellore">Vellore</option>
+<option value="Villupuram">Villupuram</option>
+<option value="Virudhunagar">Virudhunagar</option>
+</select></div></div>
+</div><div class="col-sm-4"></div></div></br>
+
+
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-tree-deciduous"></i></span>
+<input type="text" name="land" class="form-control" placeholder="Land(in acres)">
+</div></div><div class="col-sm-4"></div></div><br/>
+
+<div class="form-horizontal"><button class="btn btn-success">SignUp</button>
+</div>
+</fieldset>
+</form></div>
+<h3 style="text-align:center;"><a href="index.php"> Proceed to login</a></h3>
+</div>
+</div>
+</div>
+</body>
